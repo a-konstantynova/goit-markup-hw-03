@@ -29,6 +29,8 @@ h5,
 h6,
 p {
   margin: 0;
+  margin-block: unset;
+  margin-inline: unset;
 }
 
 ul,
@@ -246,6 +248,9 @@ img {
 /* =========END SKILLS========== */
 
 /* =========WORK========== */
+.work {
+  padding-top: 0;
+}
 .work-list {
   display: flex;
   justify-content: flex-start;
