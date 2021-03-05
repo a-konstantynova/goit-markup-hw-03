@@ -248,11 +248,15 @@ img {
 }
 .work-list {
   display: flex;
-  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
-.work-list-item:not(:last-child) {
-  padding-right: 45px;
+.work-list-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .work-title {
