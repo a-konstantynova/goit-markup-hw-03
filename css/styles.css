@@ -130,10 +130,6 @@ img {
   margin-right: 50px;
 }
 
-.mail-link {
-  margin-right: 50px;
-}
-
 .link-header {
   display: block;
   font-weight: 500;
@@ -171,6 +167,9 @@ img {
   color: var(--secondary-color);
 }
 
+.mail-link {
+  margin-right: 50px;
+}
 /*==========HEADER==========*/
 
 /* =========HERO========== */
